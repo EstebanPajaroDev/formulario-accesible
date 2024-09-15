@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario Accesible</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="https://img.icons8.com/fluency/96/submit-document.png" type="image/x-icon">
+  </head>
+
+  <body>
+    <div class="contenedor">
+      <form class="left-zone">
+        <label for="fullname"
+          >Nombre Completo
+
+          <br />
+          <input
+            type="text"
+            id="fullname"
+            placeholder="¿Cómo deberíamos llamarte?" aria-required="true" required
+          />
+          <br />
+        </label>
+
+        <label for="email"
+          >Correo electronico
+
+          <br />
+          <input type="email" id="email" placeholder="example@mail.com" aria-required="true" required/>
+          <br />
+        </label>
+
+        <label for="password"
+          >Contraseña
+
+          <br />
+          <input type="password" id="password" placeholder="xxxx-xxxx" aria-required="true" required/>
+          <br />
+        </label>
+
+        <label for="cpassword"
+          >Confimar contraseña
+
+          <br />
+          <input type="password" id="cpassword" placeholder="xxxx-xxxx" aria-required="true" required />
+          <br />
+        </label>
+
+        <button class="boton" type="submit">Actualizar perfil</button>
+      </form>
+
+      <div class="right-zone">
+        
+        <div class="porcentaje">
+          <p>65%</p>
+        </div>
+        <br />
+        <h1>Porcentaje del perfil</h1>
+        <br />
+        <div class="list">
+          <p class="mark"><del>Crea una cuenta</del></p>
+          <p class="mark"><del>Actualiza el progreso de Roadmap</del></p>
+          <p class="mark"><del>Configurar el perfil</del></p>
+          <p>Completa tu primer proyecto</p>
+          <p>Invita a tus amigos</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
